@@ -44,7 +44,7 @@ if uploaded_file:
 
             # Generate embeddings
             st.info("Generating semantic embeddings with MiniLM...")
-            model = SentenceTransformer("all-MiniLM-L6-v2")
+            model = SentenceTransformer("paraphrase-MiniLM-L6-v2")
             embeddings = model.encode(texts, show_progress_bar=True)
 
             # Auto or manual cluster count

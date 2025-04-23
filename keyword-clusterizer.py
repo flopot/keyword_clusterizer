@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 st.set_page_config(page_title="Keyword Clusterizer", layout="wide")
-st.title("Semantic Keyword Clustering Tool")
+st.title("Keyword Clustering Tool")
 
 # === STEP 1: Upload File
 uploaded_file = st.file_uploader("Upload your CSV", type="csv")

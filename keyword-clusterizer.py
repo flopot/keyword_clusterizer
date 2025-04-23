@@ -6,7 +6,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-st.set_page_config(page_title="Semantic Keyword Clustering", layout="wide")
+st.set_page_config(page_title="Keyword Clusterizer", layout="wide")
 st.title("Semantic Keyword Clustering Tool")
 
 # === STEP 1: Upload File
